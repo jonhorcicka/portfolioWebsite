@@ -9,7 +9,7 @@ const Footer = () => {
 
                 <ul className="footer__list">
                     <li>
-                        <a href="#about" className="footer__link">About</a>
+                        <a href="#about" className="footer__link">O mně</a>
                     </li>
 
                     <li>
@@ -17,7 +17,7 @@ const Footer = () => {
                     </li>
 
                     <li>
-                        <a href="#portfolio" className="footer__link">Projects</a>
+                        <a href="#portfolio" className="footer__link">Projekty</a>
                     </li>
                 </ul>
 
@@ -37,7 +37,7 @@ const Footer = () => {
                 </div>
 
                 <span className="footer__copy">
-                    &#169;Jan Horčička. All rigths reserved
+                    &#169;Jan Horčička. Všechna práva vyhrazena.
                 </span>
 
             </div>

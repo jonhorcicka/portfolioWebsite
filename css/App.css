@@ -1,0 +1,148 @@
+/*=============== VARIABLES CSS ===============*/
+/*========== Barvy ==========*/
+/*Color mode HSL(hue, saturation, lightness*/
+/*========== Font and typography ==========*/
+/*.5rem = 8px | 1rem = 16px ...*/
+/*========== Font weight ==========*/
+/*========== Margenes Bottom ==========*/
+/*.5rem = 8px | 1rem = 16px ...*/
+/*========== z index ==========*/
+@font-face {
+  font-family: "Courier New";
+  src: url("/src/fonts/courierNew/CourierNewPSMT.eot");
+  src: local("Courier New"), local("CourierNewPSMT"), url("/src/fonts/courierNew/CourierNewPSMT.eot?#iefix") format("embedded-opentype"), url("/src/fonts/courierNew/CourierNewPSMT.woff2") format("woff2"), url("/src/fonts/courierNew/CourierNewPSMT.woff") format("woff"), url("/src/fonts/courierNew/CourierNewPSMT.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+* {
+  margin: 0;
+  padding: 0;
+  bottom: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body,
+button,
+input,
+textarea {
+  font-family: "Courier New", sans-serif;
+  font-size: 16px;
+}
+
+body {
+  background-color: hsl(0deg, 0%, 98%);
+  color: hsl(0deg, 0%, 46%);
+}
+
+h1, h2, h3 {
+  color: hsl(0deg, 0%, 20%);
+  font-weight: 600;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.section {
+  padding: 96px 0 32px;
+}
+
+.section__title {
+  font-size: 36px;
+  color: hsl(0deg, 0%, 20%);
+}
+
+.section__subtitle {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 64px;
+}
+
+.section__title,
+.section__subtitle {
+  text-align: center;
+}
+
+.container {
+  max-width: 968px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.grid {
+  display: grid;
+  gap: 24px;
+}
+
+.button {
+  display: inline-block;
+  background-color: hsl(0deg, 0%, 20%);
+  color: #fff;
+  padding: 20px 32px;
+  border-radius: 16px;
+  font-weight: 500;
+}
+
+.button:hover {
+  background-color: hsl(0deg, 0%, 0%);
+}
+
+.button__icon {
+  margin-left: 0.5rem;
+}
+
+.button--flex {
+  display: inline-flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 992px) {
+  .container {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+  .button {
+    padding: 16px 28px;
+  }
+  .button__icon {
+    width: 22px;
+    height: 22px;
+  }
+}
+@media screen and (max-width: 768px) {
+  body {
+    margin: 0 0 48px 0;
+  }
+  .section {
+    padding: 32px 0 64px;
+  }
+  .section__subtitle {
+    margin-bottom: 3rem;
+  }
+}
+@media screen and (max-width: 350px) {
+  .container {
+    margin-left: 1.5rem;
+    margin-right: 1rem;
+  }
+}/*# sourceMappingURL=App.css.map */

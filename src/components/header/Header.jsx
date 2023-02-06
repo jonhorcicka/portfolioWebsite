@@ -54,7 +54,7 @@ const Header = () => {
                             className={
                                activeNav === "#services" ? "nav__link active-link" : "nav__link"}
                             >
-                                <i className="uil uil-briefcase-alt nav__icon"></i> Servis
+                                <i className="uil uil-briefcase-alt nav__icon"></i> Služby
                             </a>
                         </li>
 
