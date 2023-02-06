@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/portfolioWebsite/static/css/main.42b277af.css",
+    "main.js": "/portfolioWebsite/static/js/main.6f25e9af.js",
+    "static/media/about.jpg": "/portfolioWebsite/static/media/about.75f2282d1442b93e2fa0.jpg",
+    "static/media/CourierNewPSMT.eot": "/portfolioWebsite/static/media/CourierNewPSMT.86ff9390181ded7ee696.eot",
+    "static/media/CourierNewPSMT.ttf": "/portfolioWebsite/static/media/CourierNewPSMT.c02b913e586cc63b61d8.ttf",
+    "static/media/CV - Jan Horčička.pdf": "/portfolioWebsite/static/media/CV - Jan Horčička.b66cdcd2fd256bb41ae9.pdf",
+    "static/media/CourierNewPSMT.woff": "/portfolioWebsite/static/media/CourierNewPSMT.623782a36e50c18de14f.woff",
+    "static/media/CourierNewPSMT.woff2": "/portfolioWebsite/static/media/CourierNewPSMT.a682155c18439d3ab4c6.woff2",
+    "static/media/profile.jpg": "/portfolioWebsite/static/media/profile.78cc53de801eaa64bef3.jpg",
+    "static/media/work3.jpg": "/portfolioWebsite/static/media/work3.6ac9ca8eb2d88721b43c.jpg",
+    "static/media/work1.jpg": "/portfolioWebsite/static/media/work1.d7b46975653a241ca1c9.jpg",
+    "static/media/work5.jpg": "/portfolioWebsite/static/media/work5.66a1f7e733feaab56325.jpg",
+    "index.html": "/portfolioWebsite/index.html",
+    "main.42b277af.css.map": "/portfolioWebsite/static/css/main.42b277af.css.map",
+    "main.6f25e9af.js.map": "/portfolioWebsite/static/js/main.6f25e9af.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.42b277af.css",
+    "static/js/main.6f25e9af.js"
+  ]
+}
