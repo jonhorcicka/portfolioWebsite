@@ -35,7 +35,7 @@ const Header = () => {
                              className={
                                 activeNav === "#about" ? "nav__link active-link" : "nav__link"}
                             >
-                                <i className="uil uil-user nav__icon"></i> About
+                                <i className="uil uil-user nav__icon"></i> O mně
                             </a>
                         </li>
 
@@ -54,7 +54,7 @@ const Header = () => {
                             className={
                                activeNav === "#services" ? "nav__link active-link" : "nav__link"}
                             >
-                                <i className="uil uil-briefcase-alt nav__icon"></i> Services
+                                <i className="uil uil-briefcase-alt nav__icon"></i> Servis
                             </a>
                         </li>
 
@@ -74,7 +74,7 @@ const Header = () => {
                             className={
                                activeNav === "#contact" ? "nav__link active-link" : "nav__link"}
                             >
-                                <i className="uil uil-message nav__icon"></i> Contact
+                                <i className="uil uil-message nav__icon"></i> Kontakt
                             </a>
                         </li>
                     </ul>
